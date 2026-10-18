@@ -1,10 +1,10 @@
 # 📊 Évaluation automatique — Semaine 13 (JavaScript)
 
-> Générée le 2026-10-18 12:15 UTC · commit `0271ca9` · évaluation déterministe basée uniquement sur le cahier d'exercices et le barème.
+> Générée le 2026-10-18 14:26 UTC · commit `4091e8e` · évaluation déterministe basée uniquement sur le cahier d'exercices et le barème.
 
 ## Note finale : **0 / 15**
 
-Exercices : **17 / 95** · Parfaits : 2 / 19 · Non rendus : 15
+Exercices : **21 / 95** · Parfaits : 2 / 19 · Non rendus : 14
 
 ## 1. Résultat par exercice
 
@@ -28,7 +28,7 @@ Exercices : **17 / 95** · Parfaits : 2 / 19 · Non rendus : 15
 | **A2** — Le moteur de paie v2 | **5** | ✅ Parfait | 7/7 | 0 | ✅ | Parfait ! Accumulateur avec .forEach(), heures supplémentaires et recherche du maximum corrects.<br>📚 Recherche non rédigée. |
 | **A3** — L'inventaire en console | **3** | 🟠 Résultat incorrect | 4/7 | 0 | ❌ | Un résultat est faux ou introuvable : stocke chaque résultat (filter, map) dans une variable ou affiche-le, et gère le cas undefined de .find() avec « Produit introuvable ».<br>• chercherProduit(104) renvoie ReferenceError: chercherProduit is not defined au lieu de l'objet de la gourde.<br>• `chercherProduit(999)` renvoie ReferenceError: chercherProduit is not defined au lieu de 'Produit introuvable'.<br>• Affiche le nombre de produits en rupture de stock (2).<br>• Utilise `.find()` dans `chercherProduit`.<br>📚 Recherche non rédigée. |
 | **A4** — Le classement de la promo | **4** | 🟡 Règles non respectées | 9/9 | 0 | ❌ | Les résultats sont justes, mais respecte les consignes : boucle dans calculerMoyenne, .map(), .filter(), .find() avec return, if / else if / else.<br>• Mot-clé `function` utilisé (`calculerMoyenne` l.33) : écris une fonction fléchée.<br>• `calculerMoyenne` doit être une fonction fléchée.<br>📚 Recherche non rédigée. |
-| **A5** — Le nombre mystère | **0** | ⬜ Non rendu | — | 0 | ❌ | Exercice non commencé : écris ton code dans `semaine-13/A5-nombre-mystere.js` sous l'énoncé.<br>📚 Recherche non rédigée. |
+| **A5** — Le nombre mystère | **4** | 🟡 Règles non respectées | 4/4 | 0 | ❌ | Le jeu fonctionne, mais respecte les consignes : while, Math.random() + Math.floor(), prompt() + Number(), détection de NaN, gabarits littéraux.<br>• `let` jamais réassigné : `saisie`, `nombre` → utilise `const`.<br>📚 Recherche non rédigée. |
 
 ## 2. Barème officiel (/15)
 
@@ -38,7 +38,7 @@ Exercices : **17 / 95** · Parfaits : 2 / 19 · Non rendus : 15
 | Logique conditionnelle et opérateurs | Débutant : Insuffisant (0 %) | **0** | == ou affectation = dans un if, branches manquantes, résultats faux selon les valeurs testées.<br>_Preuves : F3, F4, M1, M2, M4_ |
 | Fonctions, return et portée | Débutant : Insuffisant (0 %) | **0** | Aucune fonction, le code est copié-collé ; ou fonctions déclarées mais jamais appelées.<br>_Preuves : F5, M2, M5, M6_ |
 | Boucles, accumulateurs et méthodes de tableau | Débutant : Insuffisant (0 %) | **0** | Boucle infinie qui fige le navigateur, ou répétition faite par copier-coller.<br>_Preuves : F6, M1, M7, M8 ; niveau Avancé : A2, A3, A4, A5_ |
-| Recherche, qualité du code et restitution | Débutant : Insuffisant (20 %) | **0** | Pas de RECHERCHES.md ou aucune source. Code non poussé sur GitHub.<br>_Recherches 0 % · commits par exercice 5 % · règles de code 75 %_ |
+| Recherche, qualité du code et restitution | Débutant : Insuffisant (16 %) | **0** | Pas de RECHERCHES.md ou aucune source. Code non poussé sur GitHub.<br>_Recherches 0 % · commits par exercice 5 % · règles de code 60 %_ |
 | **Total** | | **0 / 15** | |
 
 ## Comment lire cette évaluation
