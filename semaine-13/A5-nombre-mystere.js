@@ -23,3 +23,31 @@ Explique la « recherche dichotomique » et pourquoi 7 essais suffisent toujours
 // ✍️ Ton code ici 👇 (règles : const/let, ===, gabarits littéraux, fonctions fléchées, camelCase)
 
 
+const NOMBRE_SECRET = Math.floor(Math.random() * 100) + 1;
+let essaisRestants = 7;
+let compteur = 0;
+let trouve = false;
+
+while (essaisRestants > 0 && !trouve) {
+  let saisie = prompt(`Devine le nombre (1-100). Essais restants : ${essaisRestants}`);
+  let nombre = Number(saisie);
+  if (isNaN(nombre)) {
+    alert("Ce n'est pas un nombre !");
+    continue; 
+  }
+  compteur++;
+  essaisRestants--;
+
+  if (nombre === NOMBRE_SECRET) {
+    alert(`Bravo ! Trouvé en ${compteur} essais.`);
+    trouve = true;
+  } else if (nombre < NOMBRE_SECRET) {
+    alert("Plus grand !");
+  } else {
+    alert("Plus petit !");
+  }
+}
+
+if (!trouve) {
+  alert(`Perdu ! Le nombre était ${NOMBRE_SECRET}.`);
+}
