@@ -1,10 +1,10 @@
 # 📊 Évaluation automatique — Semaine 13 (JavaScript)
 
-> Générée le 2026-10-19 21:21 UTC · commit `74485f2` · évaluation déterministe basée uniquement sur le cahier d'exercices et le barème.
+> Générée le 2026-10-19 21:31 UTC · commit `0181a40` · évaluation déterministe basée uniquement sur le cahier d'exercices et le barème.
 
-## Note finale : **8 / 15**
+## Note finale : **9 / 15**
 
-Exercices : **75 / 95** · Parfaits : 8 / 19 · Non rendus : 2
+Exercices : **80 / 95** · Parfaits : 9 / 19 · Non rendus : 1
 
 ## 1. Résultat par exercice
 
@@ -22,7 +22,7 @@ Exercices : **75 / 95** · Parfaits : 8 / 19 · Non rendus : 2
 | **M4** — Le score par défaut : \|\| contre ?? | **4** | 🟡 Règles non respectées | 5/5 | 0 | ✅ | Les résultats sont justes, mais montre la version `\|\|`, corrige avec `??` et explique le bug en commentaire.<br>• Explique en commentaire pourquoi 0 donne « aucun » avec `\|\|`.<br>📚 Recherche non rédigée. |
 | **M5** — La vitre teintée (portée de bloc) | **4** | 🟡 Règles non respectées | 3/3 | 0 | ✅ | Plus d'erreur, mais les déclarations doivent rester dans leurs blocs et tes prédictions/explications doivent être en commentaire.<br>• Écris tes prédictions et explique pourquoi `afficher` ne s'exécutait jamais (l'erreur arrête le programme).<br>📚 Recherche non rédigée. |
 | **M6** — Le détective du return | **4** | 🟡 Règles non respectées | 5/5 | 0 | ✅ | Les 3 fonctions sont corrigées, mais explique chaque bug en commentaire et garde le gabarit littéral.<br>• Explique chacun des 3 bugs en commentaire (return manquant, console.log au lieu de return, ASI).<br>📚 Recherche non rédigée. |
-| **M7** — La tirelire numérique | **0** | ⬜ Non rendu | — | 0 | ❌ | Exercice non commencé : écris ton code dans `semaine-13/M7-tirelire.js` sous l'énoncé.<br>📚 Recherche non rédigée. |
+| **M7** — La tirelire numérique | **5** | ✅ Parfait | 3/3 | 0 | ✅ | Parfait ! Accumulateur bien initialisé, 12 tours exacts et bonus toutes les 4 semaines : 27000 FC.<br>📚 Recherche non rédigée. |
 | **M8** — La batterie qui se décharge | **0** | ⬜ Non rendu | — | 0 | ❌ | Exercice non commencé : écris ton code dans `semaine-13/M8-batterie.js` sous l'énoncé.<br>📚 Recherche non rédigée. |
 | **A1** — Kadea Express v2 : le calculateur de livraison | **5** | ✅ Parfait | 9/9 | 0 | ❌ | Parfait ! Règles métier, paramètre par défaut, TVA et arrondi corrects, y compris aux bornes.<br>📚 Recherche non rédigée. |
 | **A2** — Le moteur de paie v2 | **5** | ✅ Parfait | 7/7 | 0 | ✅ | Parfait ! Accumulateur avec .forEach(), heures supplémentaires et recherche du maximum corrects.<br>📚 Recherche non rédigée. |
@@ -37,9 +37,9 @@ Exercices : **75 / 95** · Parfaits : 8 / 19 · Non rendus : 2
 | Fondations : variables, types primitifs et conversions | Compétent : Satisfaisant (69 %) | **2** | Déclarations correctes avec const / let, aucun var. Les 5 types primitifs sont reconnus. Le piège '5' + 3 est identifié et corrigé avec Number().<br>_Preuves : F1, F2, M3_ |
 | Logique conditionnelle et opérateurs | Compétent : Satisfaisant (74 %) | **2** | if / else if / else corrects, égalité stricte === systématique, modulo maîtrisé (pair / impair, multiples). Ternaire simple fonctionnel.<br>_Preuves : F3, F4, M1, M2, M4_ |
 | Fonctions, return et portée | Compétent : Satisfaisant (72 %) | **2** | Les fonctions renvoient leur résultat avec return (pas de console.log à l'intérieur) et sont appelées avec les bons arguments. Portée de bloc respectée : aucune ReferenceError.<br>_Preuves : F5, M2, M5, M6_ |
-| Boucles, accumulateurs et méthodes de tableau | En développement : À améliorer (45 %) | **1** | Erreur de bornes (un tour en trop ou en moins), accumulateur remis à zéro dans la boucle, break / continue mal placés.<br>_Preuves : F6, M1, M7, M8 ; niveau Avancé : A2, A3, A4, A5_ |
-| Recherche, qualité du code et restitution | En développement : À améliorer (38 %) | **1** | Recherches partielles ou sans test. Peu de commits (un seul commit en fin de semaine).<br>_Recherches 0 % · commits par exercice 63 % · règles de code 88 %_ |
-| **Total** | | **8 / 15** | |
+| Boucles, accumulateurs et méthodes de tableau | Compétent : Satisfaisant (70 %) | **2** | Boucle for correcte (départ, condition, pas), accumulateur initialisé avant la boucle, while avec une condition d'arrêt sûre. Résultats attendus exacts (27000 FC pour M7, 6 h pour M8).<br>_Preuves : F6, M1, M7, M8 ; niveau Avancé : A2, A3, A4, A5_ |
+| Recherche, qualité du code et restitution | En développement : À améliorer (39 %) | **1** | Recherches partielles ou sans test. Peu de commits (un seul commit en fin de semaine).<br>_Recherches 0 % · commits par exercice 68 % · règles de code 89 %_ |
+| **Total** | | **9 / 15** | |
 
 ## Comment lire cette évaluation
 
