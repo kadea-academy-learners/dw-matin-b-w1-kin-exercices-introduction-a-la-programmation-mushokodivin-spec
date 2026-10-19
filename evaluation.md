@@ -1,10 +1,10 @@
 # 📊 Évaluation automatique — Semaine 13 (JavaScript)
 
-> Générée le 2026-10-19 19:04 UTC · commit `c787aaf` · évaluation déterministe basée uniquement sur le cahier d'exercices et le barème.
+> Générée le 2026-10-19 20:22 UTC · commit `334574a` · évaluation déterministe basée uniquement sur le cahier d'exercices et le barème.
 
-## Note finale : **3 / 15**
+## Note finale : **4 / 15**
 
-Exercices : **53 / 95** · Parfaits : 6 / 19 · Non rendus : 7
+Exercices : **58 / 95** · Parfaits : 7 / 19 · Non rendus : 6
 
 ## 1. Résultat par exercice
 
@@ -17,7 +17,7 @@ Exercices : **53 / 95** · Parfaits : 6 / 19 · Non rendus : 7
 | **F5** — Ma première fonction fléchée | **5** | ✅ Parfait | 4/4 | 0 | ✅ | Parfait ! Fonctions fléchées concises avec retour implicite et gabarit littéral.<br>📚 Recherche non rédigée. |
 | **F6** — Le compte à rebours | **5** | ✅ Parfait | 2/2 | 0 | ✅ | Parfait ! Les 3 parties de la boucle `for` sont maîtrisées et `continue` est bien placé.<br>📚 Recherche non rédigée. |
 | **M1** — FizzBuzz kinois | **4** | 🟡 Règles non respectées | 3/3 | 0 | ✅ | Le FizzBuzz est juste, mais respecte les consignes : boucle for, %, === et explication de l'ordre en commentaire.<br>• Explique en commentaire pourquoi l'ordre de tes conditions est important.<br>📚 Recherche non rédigée. |
-| **M2** — Le distributeur automatique (DAB) | **0** | ⬜ Non rendu | — | 0 | ❌ | Exercice non commencé : écris ton code dans `semaine-13/M2-dab.js` sous l'énoncé.<br>📚 Recherche non rédigée. |
+| **M2** — Le distributeur automatique (DAB) | **5** | ✅ Parfait | 9/9 | 0 | ✅ | Parfait ! Règles vérifiées dans le bon ordre, cas limites gérés, la fonction renvoie son message.<br>📚 Recherche non rédigée. |
 | **M3** — Le détecteur de champs vides (Truthy / Falsy) | **0** | ⬜ Non rendu | — | 0 | ❌ | Exercice non commencé : écris ton code dans `semaine-13/M3-champs-vides.js` sous l'énoncé.<br>📚 Recherche non rédigée. |
 | **M4** — Le score par défaut : \|\| contre ?? | **0** | ⬜ Non rendu | — | 0 | ❌ | Exercice non commencé : écris ton code dans `semaine-13/M4-score-defaut.js` sous l'énoncé.<br>📚 Recherche non rédigée. |
 | **M5** — La vitre teintée (portée de bloc) | **0** | ⬜ Non rendu | — | 0 | ❌ | Exercice non commencé : écris ton code dans `semaine-13/M5-vitre-teintee.js` sous l'énoncé.<br>📚 Recherche non rédigée. |
@@ -35,11 +35,11 @@ Exercices : **53 / 95** · Parfaits : 6 / 19 · Non rendus : 7
 | Critère | Niveau | Points /3 | Feedback |
 |---|---|:-:|---|
 | Fondations : variables, types primitifs et conversions | En développement : À améliorer (43 %) | **1** | let utilisé partout par réflexe, ou confusion entre null et undefined. Conversion oubliée : des calculs donnent '2500500' ou NaN sans que ce soit remarqué.<br>_Preuves : F1, F2, M3_ |
-| Logique conditionnelle et opérateurs | En développement : À améliorer (45 %) | **1** | Ordre des conditions erroné (MalewaWewa jamais affiché) ou confusion entre = et ===. Les cas limites ne sont pas testés.<br>_Preuves : F3, F4, M1, M2, M4_ |
-| Fonctions, return et portée | Débutant : Insuffisant (20 %) | **0** | Aucune fonction, le code est copié-collé ; ou fonctions déclarées mais jamais appelées.<br>_Preuves : F5, M2, M5, M6_ |
+| Logique conditionnelle et opérateurs | En développement : À améliorer (61 %) | **1** | Ordre des conditions erroné (MalewaWewa jamais affiché) ou confusion entre = et ===. Les cas limites ne sont pas testés.<br>_Preuves : F3, F4, M1, M2, M4_ |
+| Fonctions, return et portée | En développement : À améliorer (40 %) | **1** | Confusion entre return et console.log() qui produit des undefined ou des NaN en chaîne. Fonctions appelées sans () ou avec les arguments dans le désordre.<br>_Preuves : F5, M2, M5, M6_ |
 | Boucles, accumulateurs et méthodes de tableau | En développement : À améliorer (45 %) | **1** | Erreur de bornes (un tour en trop ou en moins), accumulateur remis à zéro dans la boucle, break / continue mal placés.<br>_Preuves : F6, M1, M7, M8 ; niveau Avancé : A2, A3, A4, A5_ |
-| Recherche, qualité du code et restitution | Débutant : Insuffisant (30 %) | **0** | Pas de RECHERCHES.md ou aucune source. Code non poussé sur GitHub.<br>_Recherches 0 % · commits par exercice 37 % · règles de code 83 %_ |
-| **Total** | | **3 / 15** | |
+| Recherche, qualité du code et restitution | Débutant : Insuffisant (32 %) | **0** | Pas de RECHERCHES.md ou aucune source. Code non poussé sur GitHub.<br>_Recherches 0 % · commits par exercice 42 % · règles de code 85 %_ |
+| **Total** | | **4 / 15** | |
 
 ## Comment lire cette évaluation
 
