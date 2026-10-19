@@ -1,10 +1,10 @@
 # 📊 Évaluation automatique — Semaine 13 (JavaScript)
 
-> Générée le 2026-10-19 20:52 UTC · commit `13f918e` · évaluation déterministe basée uniquement sur le cahier d'exercices et le barème.
+> Générée le 2026-10-19 21:01 UTC · commit `7bff173` · évaluation déterministe basée uniquement sur le cahier d'exercices et le barème.
 
-## Note finale : **5 / 15**
+## Note finale : **6 / 15**
 
-Exercices : **63 / 95** · Parfaits : 8 / 19 · Non rendus : 5
+Exercices : **67 / 95** · Parfaits : 8 / 19 · Non rendus : 4
 
 ## 1. Résultat par exercice
 
@@ -19,7 +19,7 @@ Exercices : **63 / 95** · Parfaits : 8 / 19 · Non rendus : 5
 | **M1** — FizzBuzz kinois | **4** | 🟡 Règles non respectées | 3/3 | 0 | ✅ | Le FizzBuzz est juste, mais respecte les consignes : boucle for, %, === et explication de l'ordre en commentaire.<br>• Explique en commentaire pourquoi l'ordre de tes conditions est important.<br>📚 Recherche non rédigée. |
 | **M2** — Le distributeur automatique (DAB) | **5** | ✅ Parfait | 9/9 | 0 | ✅ | Parfait ! Règles vérifiées dans le bon ordre, cas limites gérés, la fonction renvoie son message.<br>📚 Recherche non rédigée. |
 | **M3** — Le détecteur de champs vides (Truthy / Falsy) | **5** | ✅ Parfait | 11/11 | 0 | ✅ | Parfait ! Les valeurs truthy / falsy sont maîtrisées, ternaire sans comparaison.<br>📚 Recherche non rédigée. |
-| **M4** — Le score par défaut : \|\| contre ?? | **0** | ⬜ Non rendu | — | 0 | ❌ | Exercice non commencé : écris ton code dans `semaine-13/M4-score-defaut.js` sous l'énoncé.<br>📚 Recherche non rédigée. |
+| **M4** — Le score par défaut : \|\| contre ?? | **4** | 🟡 Règles non respectées | 5/5 | 0 | ✅ | Les résultats sont justes, mais montre la version `\|\|`, corrige avec `??` et explique le bug en commentaire.<br>• Explique en commentaire pourquoi 0 donne « aucun » avec `\|\|`.<br>📚 Recherche non rédigée. |
 | **M5** — La vitre teintée (portée de bloc) | **0** | ⬜ Non rendu | — | 0 | ❌ | Exercice non commencé : écris ton code dans `semaine-13/M5-vitre-teintee.js` sous l'énoncé.<br>📚 Recherche non rédigée. |
 | **M6** — Le détective du return | **0** | ⬜ Non rendu | — | 0 | ❌ | Exercice non commencé : écris ton code dans `semaine-13/M6-detective-return.js` sous l'énoncé.<br>📚 Recherche non rédigée. |
 | **M7** — La tirelire numérique | **0** | ⬜ Non rendu | — | 0 | ❌ | Exercice non commencé : écris ton code dans `semaine-13/M7-tirelire.js` sous l'énoncé.<br>📚 Recherche non rédigée. |
@@ -35,11 +35,11 @@ Exercices : **63 / 95** · Parfaits : 8 / 19 · Non rendus : 5
 | Critère | Niveau | Points /3 | Feedback |
 |---|---|:-:|---|
 | Fondations : variables, types primitifs et conversions | Compétent : Satisfaisant (69 %) | **2** | Déclarations correctes avec const / let, aucun var. Les 5 types primitifs sont reconnus. Le piège '5' + 3 est identifié et corrigé avec Number().<br>_Preuves : F1, F2, M3_ |
-| Logique conditionnelle et opérateurs | En développement : À améliorer (61 %) | **1** | Ordre des conditions erroné (MalewaWewa jamais affiché) ou confusion entre = et ===. Les cas limites ne sont pas testés.<br>_Preuves : F3, F4, M1, M2, M4_ |
+| Logique conditionnelle et opérateurs | Compétent : Satisfaisant (74 %) | **2** | if / else if / else corrects, égalité stricte === systématique, modulo maîtrisé (pair / impair, multiples). Ternaire simple fonctionnel.<br>_Preuves : F3, F4, M1, M2, M4_ |
 | Fonctions, return et portée | En développement : À améliorer (40 %) | **1** | Confusion entre return et console.log() qui produit des undefined ou des NaN en chaîne. Fonctions appelées sans () ou avec les arguments dans le désordre.<br>_Preuves : F5, M2, M5, M6_ |
 | Boucles, accumulateurs et méthodes de tableau | En développement : À améliorer (45 %) | **1** | Erreur de bornes (un tour en trop ou en moins), accumulateur remis à zéro dans la boucle, break / continue mal placés.<br>_Preuves : F6, M1, M7, M8 ; niveau Avancé : A2, A3, A4, A5_ |
-| Recherche, qualité du code et restitution | Débutant : Insuffisant (33 %) | **0** | Pas de RECHERCHES.md ou aucune source. Code non poussé sur GitHub.<br>_Recherches 0 % · commits par exercice 47 % · règles de code 86 %_ |
-| **Total** | | **5 / 15** | |
+| Recherche, qualité du code et restitution | Débutant : Insuffisant (35 %) | **0** | Pas de RECHERCHES.md ou aucune source. Code non poussé sur GitHub.<br>_Recherches 0 % · commits par exercice 53 % · règles de code 87 %_ |
+| **Total** | | **6 / 15** | |
 
 ## Comment lire cette évaluation
 
