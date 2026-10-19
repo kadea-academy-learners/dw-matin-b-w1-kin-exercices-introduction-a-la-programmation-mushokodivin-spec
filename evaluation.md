@@ -1,17 +1,17 @@
 # 📊 Évaluation automatique — Semaine 13 (JavaScript)
 
-> Générée le 2026-10-18 22:54 UTC · commit `05e73df` · évaluation déterministe basée uniquement sur le cahier d'exercices et le barème.
+> Générée le 2026-10-19 18:04 UTC · commit `508f142` · évaluation déterministe basée uniquement sur le cahier d'exercices et le barème.
 
-## Note finale : **0 / 15**
+## Note finale : **1 / 15**
 
-Exercices : **25 / 95** · Parfaits : 2 / 19 · Non rendus : 13
+Exercices : **29 / 95** · Parfaits : 2 / 19 · Non rendus : 12
 
 ## 1. Résultat par exercice
 
 | Exercice | Note /5 | Statut | Tests | Recherche /3 | Commit | Feedback |
 |---|:-:|---|:-:|:-:|:-:|---|
 | **F1** — Ma carte d'apprenant | **4** | 🟡 Règles non respectées | 5/5 | 0 | ❌ | Le résultat est bon, mais les règles ne sont pas toutes respectées : const par défaut, justification en commentaire, un seul gabarit littéral.<br>• Justifie en commentaire le choix de `const` ou `let` pour tes variables.<br>📚 Recherche non rédigée. |
-| **F2** — Le convertisseur de saisie | **0** | ⬜ Non rendu | — | 0 | ❌ | Exercice non commencé : écris ton code dans `semaine-13/F2-convertisseur.js` sous l'énoncé.<br>📚 Recherche non rédigée. |
+| **F2** — Le convertisseur de saisie | **4** | 🟡 Règles non respectées | 3/3 | 0 | ✅ | Résultat correct, mais il manque une notion imposée : Number() ou tes explications/prédictions en commentaire.<br>• Explique en commentaire pourquoi le résultat est faux et note tes prédictions avant de tester.<br>📚 Recherche non rédigée. |
 | **F3** — Pair ou impair : le tirage des tickets | **0** | ⬜ Non rendu | — | 0 | ❌ | Exercice non commencé : écris ton code dans `semaine-13/F3-pair-impair.js` sous l'énoncé.<br>📚 Recherche non rédigée. |
 | **F4** — Le contrôleur du bus | **0** | ⬜ Non rendu | — | 0 | ❌ | Exercice non commencé : écris ton code dans `semaine-13/F4-controleur-bus.js` sous l'énoncé.<br>📚 Recherche non rédigée. |
 | **F5** — Ma première fonction fléchée | **0** | ⬜ Non rendu | — | 0 | ❌ | Exercice non commencé : écris ton code dans `semaine-13/F5-fonction-flechee.js` sous l'énoncé.<br>📚 Recherche non rédigée. |
@@ -34,12 +34,12 @@ Exercices : **25 / 95** · Parfaits : 2 / 19 · Non rendus : 13
 
 | Critère | Niveau | Points /3 | Feedback |
 |---|---|:-:|---|
-| Fondations : variables, types primitifs et conversions | Débutant : Insuffisant (21 %) | **0** | Utilisation de var, variables non déclarées ou redéclarées (SyntaxError). Incapable d'identifier le type d'une valeur.<br>_Preuves : F1, F2, M3_ |
+| Fondations : variables, types primitifs et conversions | En développement : À améliorer (43 %) | **1** | let utilisé partout par réflexe, ou confusion entre null et undefined. Conversion oubliée : des calculs donnent '2500500' ou NaN sans que ce soit remarqué.<br>_Preuves : F1, F2, M3_ |
 | Logique conditionnelle et opérateurs | Débutant : Insuffisant (0 %) | **0** | == ou affectation = dans un if, branches manquantes, résultats faux selon les valeurs testées.<br>_Preuves : F3, F4, M1, M2, M4_ |
 | Fonctions, return et portée | Débutant : Insuffisant (0 %) | **0** | Aucune fonction, le code est copié-collé ; ou fonctions déclarées mais jamais appelées.<br>_Preuves : F5, M2, M5, M6_ |
 | Boucles, accumulateurs et méthodes de tableau | Débutant : Insuffisant (0 %) | **0** | Boucle infinie qui fige le navigateur, ou répétition faite par copier-coller.<br>_Preuves : F6, M1, M7, M8 ; niveau Avancé : A2, A3, A4, A5_ |
-| Recherche, qualité du code et restitution | Débutant : Insuffisant (18 %) | **0** | Pas de RECHERCHES.md ou aucune source. Code non poussé sur GitHub.<br>_Recherches 0 % · commits par exercice 5 % · règles de code 67 %_ |
-| **Total** | | **0 / 15** | |
+| Recherche, qualité du code et restitution | Débutant : Insuffisant (20 %) | **0** | Pas de RECHERCHES.md ou aucune source. Code non poussé sur GitHub.<br>_Recherches 0 % · commits par exercice 11 % · règles de code 71 %_ |
+| **Total** | | **1 / 15** | |
 
 ## Comment lire cette évaluation
 
