@@ -1,10 +1,10 @@
 # 📊 Évaluation automatique — Semaine 13 (JavaScript)
 
-> Générée le 2026-10-19 18:43 UTC · commit `f946ec5` · évaluation déterministe basée uniquement sur le cahier d'exercices et le barème.
+> Générée le 2026-10-19 18:50 UTC · commit `6fc34b1` · évaluation déterministe basée uniquement sur le cahier d'exercices et le barème.
 
 ## Note finale : **1 / 15**
 
-Exercices : **44 / 95** · Parfaits : 5 / 19 · Non rendus : 9
+Exercices : **49 / 95** · Parfaits : 6 / 19 · Non rendus : 8
 
 ## 1. Résultat par exercice
 
@@ -15,7 +15,7 @@ Exercices : **44 / 95** · Parfaits : 5 / 19 · Non rendus : 9
 | **F3** — Pair ou impair : le tirage des tickets | **5** | ✅ Parfait | 3/3 | 0 | ✅ | Parfait ! Modulo et égalité stricte maîtrisés, les cas 17, 24 et 0 sont corrects.<br>📚 Recherche non rédigée. |
 | **F4** — Le contrôleur du bus | **5** | ✅ Parfait | 5/5 | 0 | ✅ | Parfait ! Ternaire simple et conditions à trois branches corrects, bornes respectées.<br>📚 Recherche non rédigée. |
 | **F5** — Ma première fonction fléchée | **5** | ✅ Parfait | 4/4 | 0 | ✅ | Parfait ! Fonctions fléchées concises avec retour implicite et gabarit littéral.<br>📚 Recherche non rédigée. |
-| **F6** — Le compte à rebours | **0** | ⬜ Non rendu | — | 0 | ❌ | Exercice non commencé : écris ton code dans `semaine-13/F6-compte-a-rebours.js` sous l'énoncé.<br>📚 Recherche non rédigée. |
+| **F6** — Le compte à rebours | **5** | ✅ Parfait | 2/2 | 0 | ✅ | Parfait ! Les 3 parties de la boucle `for` sont maîtrisées et `continue` est bien placé.<br>📚 Recherche non rédigée. |
 | **M1** — FizzBuzz kinois | **0** | ⬜ Non rendu | — | 0 | ❌ | Exercice non commencé : écris ton code dans `semaine-13/M1-fizzbuzz.js` sous l'énoncé.<br>📚 Recherche non rédigée. |
 | **M2** — Le distributeur automatique (DAB) | **0** | ⬜ Non rendu | — | 0 | ❌ | Exercice non commencé : écris ton code dans `semaine-13/M2-dab.js` sous l'énoncé.<br>📚 Recherche non rédigée. |
 | **M3** — Le détecteur de champs vides (Truthy / Falsy) | **0** | ⬜ Non rendu | — | 0 | ❌ | Exercice non commencé : écris ton code dans `semaine-13/M3-champs-vides.js` sous l'énoncé.<br>📚 Recherche non rédigée. |
@@ -37,8 +37,8 @@ Exercices : **44 / 95** · Parfaits : 5 / 19 · Non rendus : 9
 | Fondations : variables, types primitifs et conversions | En développement : À améliorer (43 %) | **1** | let utilisé partout par réflexe, ou confusion entre null et undefined. Conversion oubliée : des calculs donnent '2500500' ou NaN sans que ce soit remarqué.<br>_Preuves : F1, F2, M3_ |
 | Logique conditionnelle et opérateurs | Débutant : Insuffisant (32 %) | **0** | == ou affectation = dans un if, branches manquantes, résultats faux selon les valeurs testées.<br>_Preuves : F3, F4, M1, M2, M4_ |
 | Fonctions, return et portée | Débutant : Insuffisant (20 %) | **0** | Aucune fonction, le code est copié-collé ; ou fonctions déclarées mais jamais appelées.<br>_Preuves : F5, M2, M5, M6_ |
-| Boucles, accumulateurs et méthodes de tableau | Débutant : Insuffisant (0 %) | **0** | Boucle infinie qui fige le navigateur, ou répétition faite par copier-coller.<br>_Preuves : F6, M1, M7, M8 ; niveau Avancé : A2, A3, A4, A5_ |
-| Recherche, qualité du code et restitution | Débutant : Insuffisant (27 %) | **0** | Pas de RECHERCHES.md ou aucune source. Code non poussé sur GitHub.<br>_Recherches 0 % · commits par exercice 26 % · règles de code 80 %_ |
+| Boucles, accumulateurs et méthodes de tableau | Débutant : Insuffisant (25 %) | **0** | Boucle infinie qui fige le navigateur, ou répétition faite par copier-coller.<br>_Preuves : F6, M1, M7, M8 ; niveau Avancé : A2, A3, A4, A5_ |
+| Recherche, qualité du code et restitution | Débutant : Insuffisant (28 %) | **0** | Pas de RECHERCHES.md ou aucune source. Code non poussé sur GitHub.<br>_Recherches 0 % · commits par exercice 32 % · règles de code 82 %_ |
 | **Total** | | **1 / 15** | |
 
 ## Comment lire cette évaluation
