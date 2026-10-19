@@ -1,10 +1,10 @@
 # 📊 Évaluation automatique — Semaine 13 (JavaScript)
 
-> Générée le 2026-10-19 18:27 UTC · commit `75fb374` · évaluation déterministe basée uniquement sur le cahier d'exercices et le barème.
+> Générée le 2026-10-19 18:37 UTC · commit `2d8edd5` · évaluation déterministe basée uniquement sur le cahier d'exercices et le barème.
 
 ## Note finale : **1 / 15**
 
-Exercices : **34 / 95** · Parfaits : 3 / 19 · Non rendus : 11
+Exercices : **39 / 95** · Parfaits : 4 / 19 · Non rendus : 10
 
 ## 1. Résultat par exercice
 
@@ -13,7 +13,7 @@ Exercices : **34 / 95** · Parfaits : 3 / 19 · Non rendus : 11
 | **F1** — Ma carte d'apprenant | **4** | 🟡 Règles non respectées | 5/5 | 0 | ❌ | Le résultat est bon, mais les règles ne sont pas toutes respectées : const par défaut, justification en commentaire, un seul gabarit littéral.<br>• Justifie en commentaire le choix de `const` ou `let` pour tes variables.<br>📚 Recherche non rédigée. |
 | **F2** — Le convertisseur de saisie | **4** | 🟡 Règles non respectées | 3/3 | 0 | ✅ | Résultat correct, mais il manque une notion imposée : Number() ou tes explications/prédictions en commentaire.<br>• Explique en commentaire pourquoi le résultat est faux et note tes prédictions avant de tester.<br>📚 Recherche non rédigée. |
 | **F3** — Pair ou impair : le tirage des tickets | **5** | ✅ Parfait | 3/3 | 0 | ✅ | Parfait ! Modulo et égalité stricte maîtrisés, les cas 17, 24 et 0 sont corrects.<br>📚 Recherche non rédigée. |
-| **F4** — Le contrôleur du bus | **0** | ⬜ Non rendu | — | 0 | ❌ | Exercice non commencé : écris ton code dans `semaine-13/F4-controleur-bus.js` sous l'énoncé.<br>📚 Recherche non rédigée. |
+| **F4** — Le contrôleur du bus | **5** | ✅ Parfait | 5/5 | 0 | ✅ | Parfait ! Ternaire simple et conditions à trois branches corrects, bornes respectées.<br>📚 Recherche non rédigée. |
 | **F5** — Ma première fonction fléchée | **0** | ⬜ Non rendu | — | 0 | ❌ | Exercice non commencé : écris ton code dans `semaine-13/F5-fonction-flechee.js` sous l'énoncé.<br>📚 Recherche non rédigée. |
 | **F6** — Le compte à rebours | **0** | ⬜ Non rendu | — | 0 | ❌ | Exercice non commencé : écris ton code dans `semaine-13/F6-compte-a-rebours.js` sous l'énoncé.<br>📚 Recherche non rédigée. |
 | **M1** — FizzBuzz kinois | **0** | ⬜ Non rendu | — | 0 | ❌ | Exercice non commencé : écris ton code dans `semaine-13/M1-fizzbuzz.js` sous l'énoncé.<br>📚 Recherche non rédigée. |
@@ -35,10 +35,10 @@ Exercices : **34 / 95** · Parfaits : 3 / 19 · Non rendus : 11
 | Critère | Niveau | Points /3 | Feedback |
 |---|---|:-:|---|
 | Fondations : variables, types primitifs et conversions | En développement : À améliorer (43 %) | **1** | let utilisé partout par réflexe, ou confusion entre null et undefined. Conversion oubliée : des calculs donnent '2500500' ou NaN sans que ce soit remarqué.<br>_Preuves : F1, F2, M3_ |
-| Logique conditionnelle et opérateurs | Débutant : Insuffisant (16 %) | **0** | == ou affectation = dans un if, branches manquantes, résultats faux selon les valeurs testées.<br>_Preuves : F3, F4, M1, M2, M4_ |
+| Logique conditionnelle et opérateurs | Débutant : Insuffisant (32 %) | **0** | == ou affectation = dans un if, branches manquantes, résultats faux selon les valeurs testées.<br>_Preuves : F3, F4, M1, M2, M4_ |
 | Fonctions, return et portée | Débutant : Insuffisant (0 %) | **0** | Aucune fonction, le code est copié-collé ; ou fonctions déclarées mais jamais appelées.<br>_Preuves : F5, M2, M5, M6_ |
 | Boucles, accumulateurs et méthodes de tableau | Débutant : Insuffisant (0 %) | **0** | Boucle infinie qui fige le navigateur, ou répétition faite par copier-coller.<br>_Preuves : F6, M1, M7, M8 ; niveau Avancé : A2, A3, A4, A5_ |
-| Recherche, qualité du code et restitution | Débutant : Insuffisant (23 %) | **0** | Pas de RECHERCHES.md ou aucune source. Code non poussé sur GitHub.<br>_Recherches 0 % · commits par exercice 16 % · règles de code 75 %_ |
+| Recherche, qualité du code et restitution | Débutant : Insuffisant (25 %) | **0** | Pas de RECHERCHES.md ou aucune source. Code non poussé sur GitHub.<br>_Recherches 0 % · commits par exercice 21 % · règles de code 78 %_ |
 | **Total** | | **1 / 15** | |
 
 ## Comment lire cette évaluation
